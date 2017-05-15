@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+To run development server:
+
+npm start
+
+The app will be running at:
+
+http://localhost:3000/
+
+To create a production build, use npm run build.
+
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
