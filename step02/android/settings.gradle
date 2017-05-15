@@ -1,0 +1,3 @@
+rootProject.name = 'step02'
+
+include ':app'
