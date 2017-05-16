@@ -1,0 +1,10 @@
+'use strict';
+
+import React, { Component } from 'react';
+import Render from './AppRender.native';
+
+export default class App extends Component {
+  render() {
+    return Render.call(this, this.props, this.state);
+  }
+}
