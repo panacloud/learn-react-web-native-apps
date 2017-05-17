@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 
 export default class CounterBase extends Component {
 
@@ -9,8 +9,8 @@ export default class CounterBase extends Component {
         this.sub = this.sub.bind(this);
 
         this.state = {
-            'test': 123
-        }
+            'test': 'component state 123'
+        };
     }
 
     componentDidMount() { }
@@ -18,11 +18,11 @@ export default class CounterBase extends Component {
     componentWillUnmount() { }
 
     add() {
-        alert('add 1323232324224234234' + this.state.test)
+        alert('called add++ func. ' + this.state.test);
     }
 
     sub() {
-        alert('sub ' + this.state.test)
+        alert('called sub-- func. ' + this.state.test);
     }
 
 }

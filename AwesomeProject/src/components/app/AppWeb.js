@@ -1,13 +1,16 @@
-'use strict';
+import React, { Component } from 'react';
+// import Render from './AppWeb';
+import CounterWebRender from '../counter/CounterWeb';
 
-import React from 'react';
-import CounterRender from '../counter/Counter';
+export default class App extends Component {
 
-export default function () {
-  return (
-    <div>
-        Test App Web Render !!!
-        <CounterRender />
-    </div>
-  );
+    render() {
+        // return Render.call(this, this.props, this.state);
+        return (
+            <div>
+                Test App Web Render !!!
+                <CounterWebRender />
+            </div>
+        )
+    }
 }
