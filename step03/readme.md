@@ -1,5 +1,7 @@
 We want to have react-native and react-web sharing the same code base.
 
+Basically we are merging step 01 and step 02
+
 
 Refereces:
 
