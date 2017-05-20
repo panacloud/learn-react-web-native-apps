@@ -13,7 +13,7 @@ import Header from './src/native/components/header';
 export default class step05 extends Component {
   render() {
     return (
-      <Header />
+      <Header headerText={"Albums!"} />
     );
   }
 }

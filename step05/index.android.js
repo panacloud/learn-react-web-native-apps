@@ -8,16 +8,14 @@ import React, { Component } from 'react';
 import {
   AppRegistry
 } from 'react-native';
-import Header from "./src/native/components/header";
+import Header from './src/native/components/header';
 
-export default class step03 extends Component {
+export default class step05 extends Component {
   render() {
     return (
-      <Header />
+      <Header headerText={"Albums!"} />
     );
   }
 }
 
-
-
-AppRegistry.registerComponent('step04', () => step03);
+AppRegistry.registerComponent('step05', () => step05);
