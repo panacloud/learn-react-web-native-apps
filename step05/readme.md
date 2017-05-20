@@ -12,3 +12,7 @@ http://exploringjs.com/es6/ch_destructuring.html
 Flexbox Layout:
 
 https://facebook.github.io/react-native/docs/flexbox.html
+
+Flew web:
+
+https://www.w3schools.com/css/css3_flexbox.asp
