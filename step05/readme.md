@@ -16,3 +16,7 @@ https://facebook.github.io/react-native/docs/flexbox.html
 Flew web:
 
 https://www.w3schools.com/css/css3_flexbox.asp
+
+To learn play with:
+
+https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/
